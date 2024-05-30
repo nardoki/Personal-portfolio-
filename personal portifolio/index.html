@@ -99,18 +99,18 @@
              <h2>Contact Me</h2>
              <div class="contact-content">
                 <div class="contact-form">
-                    <form action="submit_form.php" method="POST">
+                    <form name="submit-to-google-sheet">
                          <div class="form-group">
                              <label for="name">Name:</label>
-                             <input type="text" id="name" name="name" required>
+                             <input type="text" id="name" placeholder="your name" required>
                             </div>
                              <div class="form-group">
                                 <label for="email">Email:</label>        
-                                    <input type="email" id="email" name="email" required>
+                                    <input type="email" id="email" name="email" placeholder="your email">
                                     </div>
                                      <div class="form-group">
                                         <label for="message">Message:</label>
-                                        <textarea id="message" name="message" rows="5" required></textarea>
+                                        <textarea id="message" name="message" rows="5" placeholder="your message"></textarea>
                                     </div>
                                     <button type="submit" class="btn-submit">Send Message</button>
                                 </form>
@@ -131,5 +131,6 @@
                      <footer>
                         <p>Copyright &copy; Mihret. personal website</p>
                       </footer>
+<script> src="script.js"</script>
 </body>
 </html>
